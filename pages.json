@@ -1,0 +1,139 @@
+{
+	"pages": [{
+			"path": "pages/main/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"scrollIndicator": "none", // 该页不显示滚动条  
+				"app-plus": {
+					"scrollIndicator": "none" // 在该页APP平台不显示滚动条  
+				}
+			}
+		},
+		{
+			"path": "pages/bblr/indexUse"
+		},  {
+			"path": "pages/htcz/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qshd/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sqzj/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/xzcl/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/zfzj/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+        ,{
+            "path" : "pages/index/wdd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/ydd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/ysz",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/slotUse/slotUseIt",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4",
+			"scrollIndicator": "none"
+		}
+	},
+	"tabBar": {
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/sqzj/index",
+				"iconPath": "static/16AA280FE737403A0CB21E11BE83DC4D.png",
+				"selectedIconPath": "static/c3.png"
+
+
+
+
+
+			},
+			{
+				"text": "寻找车量",
+				"pagePath": "pages/qshd/index",
+				"iconPath": "static/16AA280FE737403A0CB21E11BE83DC4D.png",
+				"selectedIconPath": "static/c3.png"
+
+
+			}
+		// 	{
+		// 		// "text": "成交订单",
+		// 		// "pagePath": "pages/hade/hade",
+		// 		// "iconPath": "static/16AA280FE737403A0CB21E11BE83DC4D.png",
+		// 		// "selectedIconPath": "static/c3.png"
+
+
+
+
+		// 	}, {
+		// 		// "text": "申请资金",
+		// 		// "pagePath": "pages/hade/hade",
+		// 		// "iconPath": "static/16AA280FE737403A0CB21E11BE83DC4D.png",
+		// 		// "selectedIconPath": "static/c3.png"
+
+
+
+		// 	}
+		]
+	}
+}
